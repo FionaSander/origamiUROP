@@ -120,7 +120,7 @@ class System:
             f.write(f"E = {self.E_pot} {self.E_kin} {self.E_tot}\n")
             f.write(oxDNA_string(self.configuration))
 
-        with open(f"oxnda.{prefix}.top", "w") as f:
+        with open(f"oxdna.{prefix}.top", "w") as f:
             f.write(f"{len(self.nucleotides)} {len(self.strands)}\n")
             f.write(oxDNA_string(self.topology))
 
