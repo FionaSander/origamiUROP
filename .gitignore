@@ -130,3 +130,9 @@ dmypy.json
 
 ### VisualStudioCode ###
 .vscode/*
+
+# config files not for testing
+oxdna.*.conf
+oxdna.*.top
+lammps.*.conf
+*.cndo
