@@ -5,7 +5,7 @@ from origamiUROP.oxdna import System
 
 FENE_LENGTH = 0.76
 
-def main(length=17, n_strands=10, output_format='oxdna')
+def main(length=17, n_strands=10, output_format='oxdna'):
     # generate a strand
     strands = []
     staples = []
